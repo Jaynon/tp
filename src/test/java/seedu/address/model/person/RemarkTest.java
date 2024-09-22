@@ -20,5 +20,4 @@ public class RemarkTest {
         Remark differentRemark = new Remark("Bye");
         assertFalse(remark.equals(differentRemark));
     }
-
 }
