@@ -3,6 +3,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 public class RemarkTest {
+
     @Test
     public void equals() {
         Remark remark = new Remark("Hello");
@@ -19,4 +20,5 @@ public class RemarkTest {
         Remark differentRemark = new Remark("Bye");
         assertFalse(remark.equals(differentRemark));
     }
+
 }
